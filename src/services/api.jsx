@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Crear una instancia de axios con la URL base
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8080', // Usar variable de entorno o default
+    baseURL: import.meta.env.VITE_API_URL || 'http://18.206.190.107:8080', // Usar variable de entorno o default
     timeout: 30000, // 30 segundos
     headers: { 'Content-Type': 'application/json' },
 });
